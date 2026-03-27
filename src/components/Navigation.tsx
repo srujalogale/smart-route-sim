@@ -64,6 +64,18 @@ const Navigation = () => {
               </Button>
             </Link>
             
+            <Link to="/iot-monitor">
+              <Button 
+                variant={isActive("/iot-monitor") ? "default" : "ghost"}
+                size="sm"
+                className="flex items-center space-x-2"
+              >
+                <Cpu className="h-4 w-4" />
+                <span className="hidden sm:inline">IoT Monitor</span>
+                <span className="sm:hidden">IoT</span>
+              </Button>
+            </Link>
+            
             <Link to="/admin">
               <Button 
                 variant={isActive("/admin") ? "default" : "ghost"}
