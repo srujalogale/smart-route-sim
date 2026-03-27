@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { TrafficCone, Shield, Map, Home } from "lucide-react";
+import { TrafficCone, Shield, Map, Home, Cpu } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const Navigation = () => {

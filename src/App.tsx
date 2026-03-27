@@ -37,6 +37,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/iot-monitor" element={<IoTMonitor />} />
 
           {/* 🚦 New Route for YOLO Live Traffic Monitoring */}
           <Route
