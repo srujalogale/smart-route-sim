@@ -13,6 +13,7 @@ import Analytics from "./pages/Analytics";
 import About from "./pages/About";
 import Admin from "./pages/Admin";
 import MapPage from "./pages/MapPage";
+import IoTMonitor from "./pages/IoTMonitor";
 import NotFound from "./pages/NotFound";
 
 // Components
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/iot-monitor" element={<IoTMonitor />} />
 
           {/* 🚦 New Route for YOLO Live Traffic Monitoring */}
           <Route

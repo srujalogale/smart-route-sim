@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { TrafficCone, Shield, Map, Home } from "lucide-react";
+import { TrafficCone, Shield, Map, Home, Cpu } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const Navigation = () => {
@@ -61,6 +61,18 @@ const Navigation = () => {
               >
                 <Home className="h-4 w-4" />
                 <span className="hidden sm:inline">About</span>
+              </Button>
+            </Link>
+            
+            <Link to="/iot-monitor">
+              <Button 
+                variant={isActive("/iot-monitor") ? "default" : "ghost"}
+                size="sm"
+                className="flex items-center space-x-2"
+              >
+                <Cpu className="h-4 w-4" />
+                <span className="hidden sm:inline">IoT Monitor</span>
+                <span className="sm:hidden">IoT</span>
               </Button>
             </Link>
             
