@@ -13,6 +13,7 @@ import Analytics from "./pages/Analytics";
 import About from "./pages/About";
 import Admin from "./pages/Admin";
 import MapPage from "./pages/MapPage";
+import IoTMonitor from "./pages/IoTMonitor";
 import NotFound from "./pages/NotFound";
 
 // Components
